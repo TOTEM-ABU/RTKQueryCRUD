@@ -400,7 +400,6 @@ const Users = () => {
             <p>
               <strong>Website:</strong>
               <a
-                href={`https://${user.website}`}
                 target="_blank"
                 rel="noopener noreferrer"
               >

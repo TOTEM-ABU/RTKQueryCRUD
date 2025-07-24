@@ -110,10 +110,6 @@ a:hover {
   text-decoration: none;
 }
 
-.user-card a:hover {
-  text-decoration: underline;
-}
-
 @media (max-width: 600px) {
   .user-card {
     padding: 16px;
@@ -166,4 +162,34 @@ a:hover {
 .edit-button:disabled {
   background-color: #ffcccc;
   cursor: not-allowed;
+}
+
+.user-details-container {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #444;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.user-title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ccc;
+}
+
+.user-info-list {
+  list-style: none;
+  padding: 0;
+}
+
+.user-info-list li {
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+  font-size: 16px;
+}
+
+.user-info-list li:last-child {
+  border-bottom: none;
 }
